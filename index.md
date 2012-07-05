@@ -4,11 +4,16 @@ title: Welcome
 ---
 
 ### Blog Posts
+
 <ul>
 {% for post in site.posts %}
 <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
+
+### Feedback
+
+Feel free to leave feedback as issues on the [github page](https://github.com/farproc/farproc.github.com/issues) for this site.
 
 ### Projects
 
