@@ -18,8 +18,9 @@ Feel free to leave feedback as issues on the [github page](https://github.com/fa
 ### Projects
 
 Just a short list of a few of the projects I'm working on at the moment:
-* nginx queuing module for high-throughput web applications
-* offline homebrew - want all the goodness of homebrew....on a aeroplane?!
-* petool - a simple little app to extract PE header information from windows binaries
-* git-mirror-sync - a very small collection of scripts (git-hooks) to keep multiple git mirrors in sync.
+* nginx queuing module (__private__) for high-throughput web applications
+* [offline homebrew](https://github.com/farproc/homebrew) - want all the goodness of homebrew....on a aeroplane?!
+* [petool](https://github.com/farproc/PETool) - a simple little app to extract PE header information from windows binaries
+* [git-mirror-sync](https://github.com/farproc/git-mirror-sync) - a very small collection of scripts (git-hooks) to keep multiple git mirrors in sync.
+* [diffiecat](https://github.com/farproc/diffiecat) -  a simple encrypted tcp client/server, like a very simple netcat.
 
