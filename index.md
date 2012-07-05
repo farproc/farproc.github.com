@@ -24,6 +24,8 @@ Just a short list of a few of the projects I'm working on at the moment:
 * [git-mirror-sync](https://github.com/farproc/git-mirror-sync) - a very small collection of scripts (git-hooks) to keep multiple git mirrors in sync.
 * [diffiecat](https://github.com/farproc/diffiecat) -  a simple encrypted tcp client/server, like a very simple netcat.
 
+Some [project ideas](/ideas.html).
+
 ### Other peoples projects that rock
 * [gollum](https://github.com/github/gollum) - git powered wiki
 * [jekyll](https://github.com/mojombo/jekyll) - static-site generator
