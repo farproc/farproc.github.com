@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us" itemscope itemtype="http://schema.org/Blog">
 <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
@@ -11,6 +11,10 @@
         <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <title>-[ farproc.github.com - {{ page.title }} ]-</title>
+
+    <!-- google+ -->
+    <meta itemprop="name" content="{{ page.title }}">
+    <meta itemprop="description" content="{{ page.title }}">
 
     <!-- google analytics -->
     <script type="text/javascript">
@@ -34,10 +38,23 @@
             </header>
 
             <section id="downloads" class="clearfix">
-                <a href="/" class="button"><span>blog</span></a>
-                <a href="https://plus.google.com/105697390180561946359" class="button"><span>google+</span></a>
-                <a href="https://github.com/farproc" id="view-on-github" class="button"><span>github</span></a>
-                <a href="http://www.flickr.com/photos/tim_bateman/" class="button"><span>flickr</span></a>
+                <table>
+                    <tr>
+                        <td align=left><a href="/"><span>blog</span></a></td>
+                        <td align=left><a href="https://plus.google.com/105697390180561946359"><span>google+</span></a></td>
+                        <td align=left><a href="http://www.flickr.com/photos/tim_bateman/"><span>flickr</span></a></td>
+                        <td align=left><a href="https://github.com/farproc"><span>github</span></a></td>
+                    </tr>
+                </table>
+                <!-- google+ button -->
+                <g:plusone annotation="inline"></g:plusone>
+                <script type="text/javascript">
+                  (function() {
+                    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                    po.src = 'https://apis.google.com/js/plusone.js';
+                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+                  })();
+                </script>
             </section>
 
             <hr />
