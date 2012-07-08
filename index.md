@@ -19,6 +19,7 @@ Feel free to leave feedback as issues on the [github page](https://github.com/fa
 
 Just a short list of a few of the projects I'm working on at the moment:
 * nginx queuing module ( __private__ ) for high-throughput web applications
+* Added _pev_ to [homebrew](https://github.com/mxcl/homebrew) - hopefully my pull-request will be accepted soon!
 * [offline homebrew](https://github.com/farproc/homebrew) - want all the goodness of homebrew....on a aeroplane?!
 * [petool](https://github.com/farproc/PETool) - a simple little app to extract PE header information from windows binaries
 * [git-mirror-sync](https://github.com/farproc/git-mirror-sync) - a very small collection of scripts (git-hooks) to keep multiple git mirrors in sync.
